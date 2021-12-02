@@ -1,3 +1,5 @@
+console.log("new git");
+
 const listItem = document.getElementsByClassName("list__item");
 
 for (let i = 0; i < listItem.length; i++) {
