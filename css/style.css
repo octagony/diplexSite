@@ -1295,14 +1295,14 @@ body {
 
 @media screen and (max-width: 1880px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 21.2%;
   }
 }
 
 @media screen and (max-width: 1620px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 19.2%;
   }
   .block--2,
@@ -1351,7 +1351,7 @@ body {
 
 @media screen and (max-width: 1500px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 18.2%;
   }
   .content__bg {
@@ -1435,7 +1435,7 @@ body {
 
 @media screen and (max-width: 1400px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 7.5%;
   }
   .hidden__menu--ticker {
@@ -1653,7 +1653,7 @@ body {
 
 @media screen and (max-width: 1360px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 8%;
   }
   .content__bg {
@@ -1694,7 +1694,7 @@ body {
 
 @media screen and (max-width: 1162px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 9%;
   }
   .header__content .big-svg2 {
@@ -1739,7 +1739,7 @@ body {
 
 @media screen and (max-width: 1045px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 10%;
   }
   .statistic__cards {
@@ -1858,7 +1858,7 @@ body {
 
 @media screen and (max-width: 850px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 12%;
   }
   .header__content .sm-svg3 {
@@ -1932,7 +1932,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .lang__pick__items {
-    top: 10%;
+    top: 7%;
     right: 13%;
   }
   .about__image {
