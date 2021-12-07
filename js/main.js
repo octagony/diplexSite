@@ -1,4 +1,25 @@
-console.log("new git");
+jQuery(document).ready(function () {
+  jQuery("a.scrollto").click(function () {
+    elementClick = jQuery(this).attr("href");
+    destination = jQuery(elementClick).offset().top - 200;
+    jQuery("html:not(:animated),body:not(:animated)").animate(
+      { scrollTop: destination },
+      1000
+    );
+    return false;
+  });
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() >= 450) {
+        $(".header__inner").addClass("sticky slide-in-top");
+        $(".lang__pick__items").css("top", "67%");
+      } else {
+        $(".header__inner").removeClass("sticky");
+        $(".lang__pick__items").css("top", "66%");
+      }
+    });
+  });
+});
 
 const listItem = document.getElementsByClassName("list__item");
 
@@ -26,40 +47,3 @@ function hidePick(e) {
     return false;
   }
 }
-
-const selectSingle = document.querySelector(".form__select");
-const selectSingleTitle = selectSingle.querySelector(".select__title");
-const selectSingleLabels = selectSingle.querySelectorAll(".select__label");
-const selectContent = selectSingle.querySelector(".select__content");
-
-selectContent.style.display = "none";
-
-selectSingleTitle.addEventListener("click", () => {
-  if ("active" === selectSingle.getAttribute("data-state")) {
-    selectSingle.setAttribute("data-state", " ");
-    selectContent.style.display = "none";
-  } else {
-    selectSingle.setAttribute("data-state", "active");
-    selectContent.style.display = "flex";
-  }
-});
-
-for (let i = 0; i < selectSingleLabels.length; i++) {
-  selectSingleLabels[i].addEventListener("click", (evt) => {
-    selectSingleTitle.textContent = evt.target.textContent;
-    selectSingle.setAttribute("data-state", " ");
-    selectContent.style.display = "none";
-  });
-}
-
-jQuery(document).ready(function () {
-  jQuery("a.scrollto").click(function () {
-    elementClick = jQuery(this).attr("href");
-    destination = jQuery(elementClick).offset().top - 150;
-    jQuery("html:not(:animated),body:not(:animated)").animate(
-      { scrollTop: destination },
-      1000
-    );
-    return false;
-  });
-});
