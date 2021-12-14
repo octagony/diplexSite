@@ -835,13 +835,13 @@ body {
     display: block;
     position: fixed;
     list-style: none;
-    padding: 5em 0em 1em;
+    padding: 5em 0em 2em;
+    height: auto;
     margin: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 300px;
     background-color: #e6f5f7;
-    height: 100%;
     top: 0;
     left: -300px;
     -webkit-transition: left 0.2s;
