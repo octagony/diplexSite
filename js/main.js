@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
   });
   $(function () {
     $(window).scroll(function () {
-      if ($(this).scrollTop() >= 450) {
+      if ($(this).scrollTop() >= 50) {
         $(".header__inner").addClass("sticky slide-in-top");
         $(".lang__pick__items").css("top", "67%");
       } else {
