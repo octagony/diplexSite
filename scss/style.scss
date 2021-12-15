@@ -1290,7 +1290,7 @@ body {
     position: fixed;
     list-style: none;
     padding: 5em 0em 2em;
-    height: auto;
+    height: 100vh;
     margin: 0;
     box-sizing: border-box;
     width: 300px;
@@ -1756,6 +1756,9 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+  .header__content .big-svg3 {
+    display: none;
+  }
   .about__inner {
     padding: 4.25em 2em;
   }
@@ -1858,6 +1861,9 @@ body {
 }
 
 @media screen and (max-width: 450px) {
+  .header__content .sm-svg2 {
+    display: none;
+  }
   .advantage__inner {
     padding: 2.5em 1em;
   }

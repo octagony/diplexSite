@@ -565,7 +565,7 @@ body {
     position: fixed;
     list-style: none;
     padding: 5em 0em 2em;
-    height: auto;
+    height: 100vh;
     margin: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;

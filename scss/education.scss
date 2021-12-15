@@ -388,12 +388,11 @@ body {
     position: fixed;
     list-style: none;
     padding: 5em 0em 2em;
-    height: auto;
+    height: 100vh;
     margin: 0;
     box-sizing: border-box;
     width: 300px;
     background-color: #e6f5f7;
-
     top: 0;
     left: -300px;
     transition: left 0.2s;
