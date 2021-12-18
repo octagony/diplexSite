@@ -144,6 +144,7 @@ body {
 
 .contacts {
   background: url(../images/background-header-content.png) center center;
+  z-index: -1;
 }
 
 .contacts__inner {
